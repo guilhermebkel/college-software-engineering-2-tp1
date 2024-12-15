@@ -1,0 +1,15 @@
+{
+  "name": "college-software-engineering-2-pratice-n4",
+  "version": "1.0.0",
+  "description": "College Software Enginerring 2 Practice Nº 4",
+  "main": "src/cart.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
