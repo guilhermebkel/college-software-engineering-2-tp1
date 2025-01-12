@@ -1,4 +1,4 @@
-const { formatPrice } = require("../utils/priceUtil");
+const { formatPrice } = require("./priceUtil");
 
 describe('formatPrice()', () => {
     test('Should format price to 2 decimal places', () => {
