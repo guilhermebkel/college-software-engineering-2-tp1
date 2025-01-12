@@ -1,3 +1,5 @@
+const ClientService = require("../services/ClientService")
+
 class ClientController {
 	constructor() {
 		this.clients = new Map();

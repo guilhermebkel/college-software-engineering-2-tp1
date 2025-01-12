@@ -1,3 +1,5 @@
+const ProductService = require("../services/ProductService")
+
 class ProductController {
 	constructor(inventory) {
 		this.inventory = inventory;
