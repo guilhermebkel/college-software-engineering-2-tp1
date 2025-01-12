@@ -4,12 +4,16 @@
   "description": "College Software Enginerring 2 TP1",
   "main": "src/cart.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
