@@ -1,13 +1,13 @@
-const Inventory = require("./inventory");
-const Product = require("./product");
+const InventoryService = require("./InventoryService");
+const ProductService = require("./ProductService");
 
-describe('Inventory Class', () => {
+describe('InventoryService', () => {
     let inventory;
     let product;
 
     beforeEach(() => {
-        inventory = new Inventory();
-        product = new Product(1, 'Apple', 1.50, 50, 'Fruits');
+        inventory = new InventoryService();
+        product = new ProductService(1, 'Apple', 1.50, 50, 'Fruits');
     });
 
     test('Should add product to inventory', () => {

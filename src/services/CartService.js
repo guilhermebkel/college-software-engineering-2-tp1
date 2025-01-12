@@ -1,4 +1,4 @@
-class Cart {
+class CartService {
 	constructor() {
 			this.items = [];
 			this.totalDiscount = 0;
@@ -113,4 +113,4 @@ class Cart {
 	}
 }
 
-module.exports = Cart;
+module.exports = CartService;

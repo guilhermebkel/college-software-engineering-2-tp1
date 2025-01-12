@@ -1,6 +1,6 @@
-const { formatPrice } = require("./utils");
+const { formatPrice } = require("../utils/priceUtil");
 
-describe('Utils Functions', () => {
+describe('formatPrice()', () => {
     test('Should format price to 2 decimal places', () => {
         const formattedPrice = formatPrice(1234.567);
         expect(formattedPrice).toBe('$1234.57');

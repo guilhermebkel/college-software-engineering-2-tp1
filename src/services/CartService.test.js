@@ -1,13 +1,13 @@
-const Cart = require("./cart");
-const Product = require("./product");
+const CartService = require("./CartService");
+const ProductService = require("./ProductService");
 
-describe('Cart Class', () => {
+describe('CartService', () => {
     let cart;
     let product;
 
     beforeEach(() => {
-        cart = new Cart();
-        product = new Product(1, 'Banana', 2.50, 100, 'Fruits');
+        cart = new CartService();
+        product = new ProductService(1, 'Banana', 2.50, 100, 'Fruits');
     });
 
     test('Should add product to cart', () => {

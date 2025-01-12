@@ -1,4 +1,4 @@
-class Client {
+class ClientService {
 	constructor(id, name, email, phone, address = '', birthDate = '', gender = '', isActive = true) {
 		if (!id || !name || !email || !phone) {
 			throw new Error('ID, nome, email e telefone são obrigatórios para criar um cliente válido.');
@@ -67,4 +67,4 @@ class Client {
 	}
 }
 
-module.exports = Client;
+module.exports = ClientService;

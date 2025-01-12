@@ -1,10 +1,10 @@
-const Product = require("./product");
+const ProductService = require("./ProductService");
 
-describe('Product Class', () => {
+describe('ProductService', () => {
     let product;
 
     beforeEach(() => {
-        product = new Product(1, 'Milk', 3.50, 30, 'Dairy');
+        product = new ProductService(1, 'Milk', 3.50, 30, 'Dairy');
     });
 
     test('Should create a product with all properties', () => {

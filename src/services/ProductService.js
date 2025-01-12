@@ -1,4 +1,4 @@
-class Product {
+class ProductService {
 	constructor(id, name, price, quantity, category, description = '', brand = '', supplier = '', weight = 0, dimensions = { width: 0, height: 0, depth: 0 }) {
 			if (!id || !name || price <= 0 || quantity < 0) {
 					throw new Error('ID, nome, preço e quantidade são obrigatórios para criar um produto válido.');
@@ -105,4 +105,4 @@ class Product {
 	}
 }
 
-module.exports = Product;
+module.exports = ProductService;

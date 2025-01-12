@@ -1,4 +1,4 @@
-class Inventory {
+class InventoryService {
 	constructor() {
 			this.products = [];
 	}
@@ -91,4 +91,4 @@ class Inventory {
 	}
 }
 
-module.exports = Inventory;
+module.exports = InventoryService;

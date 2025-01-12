@@ -1,10 +1,10 @@
-const Client = require("./client");
+const ClientService = require("./ClientService");
 
-describe('Client Class', () => {
+describe('ClientService', () => {
 	let client;
 
 	beforeEach(() => {
-		client = new Client(1, 'John Doe', 'john.doe@example.com', '123456789', '123 Main St', '1990-01-01', 'Male');
+		client = new ClientService(1, 'John Doe', 'john.doe@example.com', '123456789', '123 Main St', '1990-01-01', 'Male');
 	});
 
 	test('Should create a client with all properties', () => {
@@ -58,6 +58,6 @@ describe('Client Class', () => {
 	});
 
 	test('Should throw error when creating client with missing mandatory fields', () => {
-		expect(() => new Client(null, 'John Doe', 'john.doe@example.com', '123456789')).toThrow('ID, nome, email e telefone são obrigatórios para criar um cliente válido.');
+		expect(() => new ClientService(null, 'John Doe', 'john.doe@example.com', '123456789')).toThrow('ID, nome, email e telefone são obrigatórios para criar um cliente válido.');
 	});
 });
