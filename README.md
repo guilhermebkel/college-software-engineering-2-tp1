@@ -37,6 +37,8 @@ Este projeto foi desenvolvido como parte da disciplina Engenharia de Software 2.
  ## **Integrantes do Grupo**
  
   Ana Luiza Macêdo dos Santos
+  
   Guilherme Mota Bromonschenkel Lima
+  
   Rodolfo Lins Cardoso
 
