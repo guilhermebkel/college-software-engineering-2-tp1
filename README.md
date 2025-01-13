@@ -18,6 +18,8 @@ Este projeto foi desenvolvido como parte da disciplina Engenharia de Software 2.
   
   Módulos: Cada classe e função é exportada como um módulo independente.
 
+  Frameworks: Jest e e Supertest para respectivamente testar a implementação Js e as APIs.
+
  ## **O que foi testado** 
   Os testes unitários foram implementados para garantir o correto funcionamento das classes Product, Cart e Inventory, bem como da função utilitária formatPrice. 
   
