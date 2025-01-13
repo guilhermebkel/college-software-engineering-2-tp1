@@ -21,6 +21,7 @@ Este projeto foi desenvolvido como parte da disciplina Engenharia de Software 2.
   Frameworks: Jest e e Supertest para respectivamente testar a implementação Js e as APIs.
 
  ## **O que foi testado** 
+ 
   Os testes unitários foram implementados para garantir o correto funcionamento das classes Product, Cart e Inventory, bem como da função utilitária formatPrice. 
   
   Os testes cobrem diversos cenários, incluindo:
@@ -33,4 +34,9 @@ Este projeto foi desenvolvido como parte da disciplina Engenharia de Software 2.
   
   Função formatPrice: Garante que os preços sejam formatados corretamente para duas casas decimais, incluindo casos de preços negativos, zero e grandes valores
     
-   
+ ## **Integrantes do Grupo**
+ 
+  Ana Luiza Macêdo dos Santos
+  Guilherme Mota Bromonschenkel Lima
+  Rodolfo Lins Cardoso
+
